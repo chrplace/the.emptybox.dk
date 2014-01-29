@@ -1,6 +1,6 @@
------
+---
 title: Ideas for notes and articles
------
+---
 
 Ideas
 =======

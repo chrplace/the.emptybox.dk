@@ -1,3 +1,6 @@
+---
+title: Wintersmith installation
+---
 Install Wintersmith on debian/ubuntu from latest
 ======
 
@@ -16,7 +19,8 @@ sudo npm install -g wintersmith
 ```
 source: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
 
-### Notes
+Notes
+-----
 * <a name="missingcc"></a>`cc` missing:  
    On debian 7 it just worked, with out doing the link for cc, but on Ubuntu 13.10 `cc` was missing
 
@@ -49,4 +53,6 @@ source: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manag
    gcc is already the newest version.
    ```
 
-
+Todo
+----
+- Links and stuff
