@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  {% include 'page.header.html' %}
+    
+  {% if site.title %}<title>{% if title %}{{ title }} &ndash; {% endif %}{{ site.title }}{% if not title and site.subtitle %} &ndash; {{ site.subtitle }}{% endif %}</title>{% endif %}
+</head>
+
+<body>
+  <header class="header">
+    <h1><a href="{{ get_url() }}">{{ site.title }}</a></h1>
+    {% if site.subtitle %}<h2>{{ site.subtitle }}</h2>{% endif %}
+  </header>
+  <div id="content">
+    {% block content %}{% endblock %}
+  </div>
+  <footer class="header">
+    <p>
+    {% if site.author %}
+      &copy; {{ none|date('%Y') }} 
+      {% if site.author.link %}
+        <a href="{{ site.author.link }}">{{ site.author.name }}</a>
+      {% else %}
+        {{ site.author.name }}
+      {% endif %}
+      &ndash; {% endif %}powered by <a href="http://mynt.mirroredwhite.com/">mynt</a></p>
+  </footer>
+</body>
+</html>
