@@ -9,7 +9,7 @@
 
 <body>
   <header class="header">
-    <h1><a href="{{ get_url() }}">{{ site.title }}</a></h1>
+    <h1>{{ site.title }}</h1>
     {% if site.subtitle %}<h2>{{ site.subtitle }}</h2>{% endif %}
   </header>
   <div id="content">
@@ -18,13 +18,13 @@
   <footer class="header">
     <p>
     {% if site.author %}
-      &copy; {{ none|date('%Y') }} 
+      &copy; {{ site.date.strftime('%Y') }} 
       {% if site.author.link %}
         <a href="{{ site.author.link }}">{{ site.author.name }}</a>
       {% else %}
         {{ site.author.name }}
       {% endif %}
-      &ndash; {% endif %}powered by <a href="http://mynt.mirroredwhite.com/">mynt</a></p>
+      &ndash; {% endif %}powered by <a href="https://github.com/mythmon/wok">wok</a></p>
   </footer>
 </body>
 </html>
