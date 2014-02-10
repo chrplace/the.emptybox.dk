@@ -1,0 +1,5 @@
+---
+title: Notes
+type: notes
+url: /notes/index.html
+---
