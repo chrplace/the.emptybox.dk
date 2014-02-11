@@ -1,0 +1,35 @@
+---
+title: Log of my wok modifications
+type: note
+slug: wok-mod-log
+category: notes
+---
+My wok modifications
+====================
+I ended up using wok for this website, but I have stumbled upon a few issues that I would like differently.  I will note them here along with the changes as I get around to making them.
+
+`slug` from title
+-----------------
+It actually says in the [documentation][wokdoc] that if no slug is given it will use the title:
+> `slug` - Name for URLs and filenames. If not specified, it will be generated from the title.
+
+Use github-formatted-markdown
+-----------------------------
+I really like the changes to markdown used on [github][], but wok uses the python-markdown implementation. [Misaka][] seems to be more suitable for how I want it. So I would love to be able to specify misaka as markdown renderer.
+
+Links to look at when implementing this:
+
+* https://github.com/freedomsponsors/www.freedomsponsors.org/issues/4
+* https://github.com/freedomsponsors/www.freedomsponsors.org/blob/1c35ec6c5de8438371878088d7c91dca86c04bf5/djangoproject/core/formattingutils.py
+* https://github.com/FSX/misaka
+
+
+Self-contained Posts
+--------------------
+I started the travel towards this website by looking at static website generators and stumbled upon [wintersmith][], but it was not python and I didn't care to learn CoffeeScript or that much JavaScript. But one thing I really liked about wintersmith was the ability to have self-contained posts, so an article would consist of a directory with the markdown and the image files used in that post. One example is how it is done on [this][katzki] website.
+
+[wokdoc]: http://wok.mythmon.com/docs/content/
+[github]: https://github.com
+[misaka]: http://misaka.61924.nl/
+[wintersmith]: https://github.com/jnordberg/wintersmith
+[katzki]: https://github.com/ro-ka/ro-ka.github.io
