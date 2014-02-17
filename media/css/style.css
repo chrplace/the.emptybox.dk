@@ -27,3 +27,50 @@
 	content: "\e600";
         font-size: 1000%;
 }
+
+blockquote {
+font-size: 18px;
+font-style: italic;
+position: relative;
+background: #fafafa;
+padding: 0.5em 0.5em 2.5em 4em;
+max-width: 70%;
+}
+
+blockquote:before {
+font-family: 'icons';
+font-style: normal;
+position: absolute;
+left: 0.2em;
+top: 0.2em;
+content: "\e607";
+font-size: 40px;
+color: #909090;
+margin-right: 0.5em;
+}
+
+blockquote p {
+display: inline;
+}
+
+blockquote cite:before {
+content: "\2014 \2009";
+color: #909090;
+}
+
+blockquote cite {
+position: absolute;
+bottom: 0.2em;
+left: 5em;
+}
+
+blockquote cite a {
+color: #909090;
+text-decoration: none;
+}
+
+blockquote cite a:hover {
+color: #404040;
+text-decoration: underline;
+}
+

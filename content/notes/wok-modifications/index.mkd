@@ -1,5 +1,6 @@
 ---
 title: Log of my wok modifications
+date: 2013-02-11 16:00:00
 type: note
 slug: wok-mod-log
 category: notes
@@ -10,8 +11,11 @@ I ended up using wok for this website, but I have stumbled upon a few issues tha
 
 `slug` from title
 -----------------
-It actually says in the [documentation][wokdoc] that if no slug is given it will use the title:
+It actually says in the documentation for wok that if no slug is given it will use the title:
 > `slug` - Name for URLs and filenames. If not specified, it will be generated from the title.
+>
+> <cite>[wok documentation][wokdoc]</cite>
+
 
 Use github-formatted-markdown
 -----------------------------

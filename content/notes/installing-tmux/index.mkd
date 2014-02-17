@@ -1,5 +1,6 @@
 ---
-title: Installing tmux where needed
+title: Installing tmux as a static
+date: 2013-02-05 12:10:00
 type: note
 slug: install-tmux
 category: notes
@@ -7,7 +8,8 @@ category: notes
 
 Tmux
 ====
-I enjoy using tmux...
+I enjoy using tmux and I really like the zoom feature implemented in 1.8, but it is rarely installed let alone tmux at all on remote systems.  Therefore it can be very helpful to install it as a static in your own home on the remote machine.
+I'll add installaton insttuctions to different systems as I need them, but the first one for Centos would probably work on most system with basic develeopment tools installed.
 
 Installing as user on Centos 5.7
 -------

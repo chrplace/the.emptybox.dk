@@ -1,5 +1,6 @@
 ---
 title: Wintersmith installation
+date: 2013-01-31 15:15:00
 category: notes
 type: note
 slug: wintersmith-install
