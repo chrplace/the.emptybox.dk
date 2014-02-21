@@ -18,3 +18,4 @@ Notes
 - [Wintersmith install](drafts/wintersmith_install.md) (started)
 - Firefox Sync Server
 - wok install
+- [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) - vim completion
